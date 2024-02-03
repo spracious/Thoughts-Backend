@@ -1,0 +1,32 @@
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  /* text-align: center; */
+}
+.container {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.link a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 7.8125rem;
+  font-size: 0.725rem;
+  color: white;
+  border-radius: 5px;
+  background-color: #000000;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link a:is(:hover, :active) {
+  background-color: transparent;
+  color: black;
+}
